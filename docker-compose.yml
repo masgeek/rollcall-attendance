@@ -26,7 +26,7 @@ services:
     environment: &ENV
       RAILS_ENV: development
       ROLLCALL_ROLE: web
-      VIRTUAL_HOST: rollcall.docker
+      #VIRTUAL_HOST: rollcall.docker
       DATABASE_URL: postgres://postgres@db:5432/rollcall_dev
       REDIS_URL: redis://redis:6379
       # SENTRY_DSN: 'https://foo:bar@sentry.insops.net/35'
